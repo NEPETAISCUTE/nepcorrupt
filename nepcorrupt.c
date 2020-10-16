@@ -279,9 +279,9 @@ int doOp(int op,char character, uint8_t opNum) {//doOp executes the operator of 
     case 4:
       return character/opNum;
     case 5:
-      return character&&opNum;
+      return character&opNum;
     case 6:
-      return character||opNum;
+      return character|opNum;
     case 7:
       return character^opNum;
     case 8:
